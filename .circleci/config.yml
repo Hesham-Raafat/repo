@@ -36,6 +36,7 @@ jobs:
             sudo touch /bin/hadolint
             sudo chmod 777 /bin/hadolint
             wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.6.0/hadolint-Linux-x86_64
+            pip install pylint
             
       - save_cache:
           paths:
