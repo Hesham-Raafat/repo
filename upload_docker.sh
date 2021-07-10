@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="hesham/python:v1"
+dockerpath="heshamraafat/python:v1"
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
