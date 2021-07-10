@@ -12,7 +12,7 @@ kubectl run mypod --image=$dockerpath --port=80 --labels="mypod"
 
 # Step 3:
 # List kubernetes pods
-kubectl get pods -A -o wide
+kubectl get pods -o wide
 # Step 4:
 # Forward the container port to a host
 export mypod=$(kubectl get pod -l mypod -o jsonpath="{.items[0].metadata.name}")
