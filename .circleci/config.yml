@@ -34,7 +34,7 @@ jobs:
             . venv/bin/activate
             pip install -r requirements.txt
             wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.6.0/hadolint-Linux-x86_64
-            chmod 777 /bin/hadolint
+            sudo chmod 777 /bin/hadolint
             
       - save_cache:
           paths:
