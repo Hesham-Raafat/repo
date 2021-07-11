@@ -4,10 +4,10 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build ~/Desktop/repo -t hesham/python:v1
+docker build ~/Desktop/repo -t heshamraafat/python:v1
 # Step 2: 
 # List docker images
 docker images
 # Step 3: 
 # Run flask app
-docker run -d -p 8000:80 -it hesham/python:v1
+docker run -d -p 8000:80 -it heshamraafat/python:v1
