@@ -9,6 +9,7 @@
 dockerpath="heshamraafat/python:v1"
 # Step 2:  
 # Authenticate & tag
+docker login
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
