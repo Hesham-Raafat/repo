@@ -9,6 +9,7 @@ dockerpath="heshamraafat/python:v1"
 # Step 2
 # Run the Docker Hub container with kubernetes
 kubectl run mypod --image=$dockerpath --port=80
+sleep 900
 # Step 3:
 # List kubernetes pods
 kubectl get pods -o wide
